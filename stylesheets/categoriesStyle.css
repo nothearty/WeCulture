@@ -101,36 +101,36 @@ a {
 }
 
 .informatica {
-  background-image: url("/assets/images/informatica.jpg");
+  background-image: url("/WeCulture/assets/images/informatica.jpg");
   
 }
 
 .letteratura {
-  background-image: url("/assets/images/letteratura.jpg");
+  background-image: url("/WeCulture/assets/images/letteratura.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .biologia {
-  background-image: url("/assets/images/biologia.jpg");
+  background-image: url("/WeCulture/assets/images/biologia.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .storia {
-  background-image: url("/assets/images/storia.jpg");
+  background-image: url("/WeCulture/assets/images/storia.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .chimica {
-  background-image: url("/assets/images/chimica.jpg");
+  background-image: url("/WeCulture/assets/images/chimica.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .matematica {
-  background-image: url("/assets/images/matematica.jpg");
+  background-image: url("/WeCulture/assets/images/matematica.jpg");
     background-position: center;
   background-size: cover;
 }
