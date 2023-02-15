@@ -1,111 +1,106 @@
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
-html{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    overflow: hidden; 
-    
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: hidden;
 }
-body{
-    background-color: rgba(33,37,43,255);
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    overflow: hidden; 
-}
-
-a{
-    text-decoration: none;
+body {
+  background-color: rgba(33, 37, 43, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: hidden;
 }
 
-.top{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-
+a {
+  text-decoration: none;
 }
 
-#titolo{
-    align-self: center;  
-    margin-top: 30px;  
-    font-size: 60px;
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#titolo {
+  align-self: center;
+  margin-top: 30px;
+  font-size: 60px;
   /*  color: rgba(123,120,131,255);*/
-    color: rgba(163,177,189,255);
-    font-family: 'Oswald', sans-serif;
-
+  color: rgba(163, 177, 189, 255);
+  font-family: "Oswald", sans-serif;
 }
 
-#sottotitolo{
-    align-self: center;    
-    font-size: 22px;
-   /* color: rgba(123,120,131,255);*/
-    color: rgba(163,177,189,255);
-    font-family: 'Oswald', sans-serif;
-
+#sottotitolo {
+  align-self: center;
+  font-size: 22px;
+  /* color: rgba(123,120,131,255);*/
+  color: rgba(163, 177, 189, 255);
+  font-family: "Oswald", sans-serif;
 }
 
-.logo{
-    align-items: center;
-    margin-top:60px;
-    align-self: center;
-    background-position: center;
-    background-size: contain;
-    width: 70vh;
-    height: 55vh;
-    background-image: url("/WeCulture/assets/images/logo.png") ;
-    /*background-image: url("/WeCulture/assets/images/logo.png") ;*/
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
+.logo {
+  align-items: center;
+  margin-top: 60px;
+  align-self: center;
+  background-position: center;
+  background-size: contain;
+  width: 70vh;
+  height: 55vh;
+  background-image: url("/WeCulture/assets/images/logo.png");
+  /*background-image: url("/WeCulture/assets/images/logo.png") ;*/
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
 }
 
-#logo{
-    align-self: center;
-    width: 42vh;
-    height: 55vh;
-    
+#logo {
+  align-self: center;
+  width: 42vh;
+  height: 55vh;
 }
 
-.search{
-    padding-top: 50px;
-    align-self: center;  
-    text-decoration: none;
-    text-decoration-line: none;
-
-}
-.searchB{
-    background-color: rgb(87,143,192);
-    width: 400px;
-    height: 40px;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-decoration: none;
-    text-decoration-line: none;
-
+.search {
+  padding-top: 50px;
+  align-self: center;
+  text-decoration: none;
+  text-decoration-line: none;
 }
 
-.searchP{
-    align-self: center;   
-    font-size: 22px;
-    color: rgb(208, 214, 219);
-    font-weight: bold;
-    text-decoration: none;
-    text-decoration-line: none;
-    font-family: 'Livvic', sans-serif;
+/* Search Button */
+.searchB {
+  background-color: rgb(87, 143, 192);
+  width: 400px;
+  height: 40px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  text-decoration-line: none;
+  cursor: pointer;
 }
 
-.lente{
-    padding-left: 7px;
-    /*padding-left: 10px;
+/* Search Text */
+.searchP {
+  align-self: center;
+  font-size: 22px;
+  color: rgb(208, 214, 219);
+  font-weight: bold;
+  text-decoration: none;
+  text-decoration-line: none;
+  font-family: "Livvic", sans-serif;
+}
+
+.lente {
+  padding-left: 7px;
+  /*padding-left: 10px;
     padding-top: 13px;*/
-    padding-top: 10px;
-    text-decoration: none;
-        
+  padding-top: 10px;
+  text-decoration: none;
 }
-
