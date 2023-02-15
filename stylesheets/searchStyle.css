@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    border:  0px;
+    padding:  0px;
+}
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    overflow: hidden; 
+}
+body{
+    background-color: rgba(33,37,43,255);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    overflow: hidden; 
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.barra{
+    padding:  0px;
+    margin: 0px;
+    border:  0px;
+    background-color: rgb(87,143,192);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.barra1{
+    background-color: rgb(87,143,192);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.logo{
+    display: flex;
+    text-shadow: none;
+    text-decoration: none;
+    
+}
+
+#logo{
+    
+    padding-left: 6px;
+    margin-top: 6px;
+}
+
+#titolo{
+    align-self: center;  
+    padding-left: 6px;
+    margin-top: 3px;
+    font-size: 20px;
+  /*  color: rgba(123,120,131,255);*/
+    color: rgba(163,177,189,255);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.barra2{
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    
+    /*padding-left: 350px;*/
+    
+}
+
+.search{
+    
+    margin-top: 6px;
+    height: 30px;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.categoriesB{
+    background-color: rgb(87,143,192);
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    text-decoration-line: none;
+
+}
+
+.categoriesP{
+    align-self: center;   
+    font-size: 22px;
+    color: rgb(208, 214, 219);
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-family: 'Livvic', sans-serif;
+}
+
+.grid{
+    padding-left: 7px;
+    padding-top: 9px;
+}
+
+
+.corpo{
+    display: flex;
+    flex-direction: row;
+}
+
+
