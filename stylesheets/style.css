@@ -7,14 +7,14 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 body {
   background-color: rgba(33, 37, 43, 255);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a {
